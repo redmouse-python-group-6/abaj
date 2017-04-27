@@ -1,0 +1,16 @@
+# -- coding: utf-8 --
+x=int(raw_input('введите число от 1 до 9:'))
+if x>=0 and x<=3:
+    s=str(raw_input('введите строку:'))
+    n=ins(raw input('Сколько раз повторить строку?'))
+    a=(s*n)
+    print(a)
+elif x>3 and x<=6:
+    m=int(raw_input('в какую степень возвести ваш выбор?'))
+    print (x**m)
+elif x>6 and x<=9 :
+    for i in range (0,10):
+        x=x+1
+        print(x)
+else:
+    print ('Ошибка ввода')
